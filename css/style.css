@@ -120,6 +120,7 @@ body{
 #heading .menu ul li:active a::after{
     width: 100%;
     left: 0;
+    
 }
 
 
@@ -387,12 +388,277 @@ body{
 /* branding bar ends */
 
 
+
+
+
+/* help bar starts */
+
+#help{
+    margin-top: 147px;
+    margin-bottom: 200px;
+}
+
+
+#help .item{
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+    padding: 17px 0 17px 29px;
+    width: 380px;
+}
+
+#help .item_title{
+    padding-left: 18px;
+}
+
+#help .item_title h4{
+    color: #353535;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%; 
+    
+}
+
+#help .item_title p{
+    color: #353535;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%;
+}
+
+
+
+#help .title {
+    width: 60%;
+    text-align: right;
+}
+
+
+#help .title h3{
+    color: #353535;
+    font-family: var(--heading-font);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+#help .title p{
+    color: #353535;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 190%; 
+margin: 26px 0 32px 100px;
+}
+
+#help .title .row{
+    justify-content: end;
+}
+
+#help .title li h4{
+    text-align: right;
+    color: #353535;
+    text-align: right;
+    font-family: var(--heading-font);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#help .title li small {
+    color: #353535;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%;
+    margin-left: 67PX;
+    margin-top: 9PX;
+}
+
+
+/* help bar ends */
+
+
+
+/* Experience section starts */
+#experience .experience{
+    position: relative;
+}
+#experience{
+    margin: 220px 0;
+}
+#experience .experience::before{
+    content: "";
+    border: 1px dashed #7A7A7A;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: calc(40% -   70px);
+}
+#experience .experiece_item .experience_tittle{
+    width: 40%;
+}
+#experience .experiece_item .experience_info{
+    width: 60%;
+    position: relative;
+    margin-bottom: 50px;
+}
+#experience .experiece_item .experience_info::before{
+    content: "";
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    border: 1px dashed #7A7A7A;
+    border-radius: 50%;
+    top: -21px;
+    left:-92px;
+    background-color: #fff;
+    z-index: 99;
+}
+#experience .experiece_item .experience_info::after{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: -10px;
+    left:-80px;
+    background-color: #c50c0c;
+    z-index: 99;
+}
+
+#experience .experiece_item:nth-child(1) .experience_info::after{
+    background-color: #52AB70;
+}
+
+
+#experience .experiece_item:nth-child(2) .experience_info::after{
+    background-color: #F17676;
+}
+
+
+#experience .experiece_item:nth-child(3) .experience_info::after{
+    background-color: #FFD233;
+}
+
+#experience h4{
+     color: #353535;
+    font-family: var(--heading-font);
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 70px;
+}
+#experience .experiece_item .h5{
+    color: #353535;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 180%;
+}
+#experience .experiece_item p{
+    color: #7A7A7A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 200.5%;
+   padding-top: 16px;
+}
+/* Experience section ends */
+
+
+/* Expert Area section start */
+#exper_skill .area_info{
+    width: 65%;
+}
+#exper_skill .skill{
+    width: 35%;
+}
+
+#exper_skill .area_info a{
+    border: none;
+    padding: 0;
+}
+
+#exper_skill .area_info  button{
+    border-radius: 20px;
+    background: #FC0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 180%;
+    padding: 16px 45px;
+    margin-top: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+#exper_skill .area_info  button i{
+    padding-left: 11px;
+}
+
+#exper_skill .area_info .heading p{
+    color: #7A7A7A;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 200%;
+    padding-right: 100px;
+}
+#exper_skill .area_info .heading h3{
+    padding-bottom: 50px;
+}
+#exper_skill .skill .box{
+    margin-bottom: 50px;
+}
+#exper_skill .skill button{
+    margin-bottom: 60px;
+    border: none;
+    background-color: #fff;
+    padding: 15px 60px;
+    border: 1px solid #000;
+    border-color: transparent;
+}
+#exper_skill .skill button:hover{
+    border-radius: 20px;
+    border: 1px solid #000;
+}
+#exper_skill .box_bar{
+    height: 6px;
+    background-color: #D9D9D9;
+    border-radius: 50px;
+}
+#exper_skill .box_bar .box_skill{
+    height: 100%;
+    width: 85%;
+    text-align: right;
+    border-radius: 50px;
+}
+#exper_skill .box_bar .box_skill span{
+    display: inline-block;
+    transform: translatey(-30px);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 180%;
+}
+#exper_skill .skill .box h3{
+    color: #353535;
+font-size: 18px;
+font-weight: 600;
+line-height: 180%; 
+}
+/* Expert Area section end */
+
 /* service bar starts  */
 
 
 #service {
     background-color:#FFF7D5;
     padding: 71px 0 104px 0;
+    margin-top: 146px;
 }
 
 #service .heading p{
@@ -868,3 +1134,5 @@ footer .contact ul li a{
 
 
 /* footer bar ends  */
+
+
